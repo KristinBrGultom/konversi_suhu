@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Konverter Suhu"),
+          title: const Text("Konverter Suhu, Kristin Br Gultom 2031710107"),
         ),
         body: Container(
           margin: const EdgeInsets.all(8),

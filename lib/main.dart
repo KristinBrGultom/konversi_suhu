@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:konversi_suhu/layout/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,25 +11,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Konverter Suhu"),
-        ),
-        body: Container(
-          margin: const EdgeInsets.all(8),
-          child: Column(
-            children: [
-              TextFormField(),
-            ],
-          ),
-        ),
-        ),
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
     );
   }
 }

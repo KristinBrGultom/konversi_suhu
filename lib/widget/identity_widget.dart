@@ -10,14 +10,14 @@ class IdentityWidget extends StatelessWidget {
     return Column(
       children: const [
         Text(
-          'Kirana Jenny Alqorni',
+          'Kristin Br Gultom',
           style: TextStyle(
             fontWeight: FontWeight.w400,
             fontSize: 20,
           ),
         ),
         Text(
-          '2031710086',
+          '2031710107',
           style: TextStyle(
             fontWeight: FontWeight.w400,
             fontSize: 20,
